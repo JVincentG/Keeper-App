@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import App from './components/App';
 //1. Create a new React app.
 //2. Create a App.jsx component.
 //3. Create a Header.jsx component that renders a <header> element
@@ -15,4 +15,4 @@ import ReactDOM from 'react-dom';
 //HINT: You will need to study the classes in the styles.css file to appy styling.
 
 
-ReactDOM.render(<h1 >test!</h1>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
